@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACA7B8211AA447A3002CE78F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA7B8201AA447A3002CE78F /* Common.swift */; };
 		ACFCBE921AA04DE700D9D269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCBE911AA04DE700D9D269 /* AppDelegate.swift */; };
 		ACFCBE941AA04DE800D9D269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCBE931AA04DE700D9D269 /* ViewController.swift */; };
 		ACFCBE971AA04DE800D9D269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFCBE951AA04DE800D9D269 /* Main.storyboard */; };
 		ACFCBE991AA04DE800D9D269 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFCBE981AA04DE800D9D269 /* Images.xcassets */; };
-		ACFCBE9C1AA04DE800D9D269 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACFCBE9A1AA04DE800D9D269 /* LaunchScreen.xib */; };
 		ACFCBEA81AA04DE800D9D269 /* homework_4_facebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCBEA71AA04DE800D9D269 /* homework_4_facebookTests.swift */; };
+		ACFCBEB21AA0506300D9D269 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCBEB11AA0506300D9D269 /* RequestsViewController.swift */; };
+		ACFCBEB41AA0506E00D9D269 /* NewsfeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCBEB31AA0506E00D9D269 /* NewsfeedViewController.swift */; };
+		ACFCBEB81AA0508400D9D269 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCBEB71AA0508400D9D269 /* MoreViewController.swift */; };
+		ACFCBEBE1AA050B400D9D269 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCBEBD1AA050B400D9D269 /* MessagesViewController.swift */; };
+		ACFCBEC01AA05D3200D9D269 /* NotifsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCBEBF1AA05D3200D9D269 /* NotifsViewController.swift */; };
+		ACFCBEC21AA065DE00D9D269 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCBEC11AA065DE00D9D269 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACA7B8201AA447A3002CE78F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		ACFCBE8C1AA04DE700D9D269 /* homework-4-facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "homework-4-facebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFCBE901AA04DE700D9D269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACFCBE911AA04DE700D9D269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACFCBE931AA04DE700D9D269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACFCBE961AA04DE800D9D269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACFCBE981AA04DE800D9D269 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		ACFCBE9B1AA04DE800D9D269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ACFCBEA11AA04DE800D9D269 /* homework-4-facebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "homework-4-facebookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFCBEA61AA04DE800D9D269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACFCBEA71AA04DE800D9D269 /* homework_4_facebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework_4_facebookTests.swift; sourceTree = "<group>"; };
+		ACFCBEB11AA0506300D9D269 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		ACFCBEB31AA0506E00D9D269 /* NewsfeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = NewsfeedViewController.swift; sourceTree = "<group>"; };
+		ACFCBEB71AA0508400D9D269 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		ACFCBEBD1AA050B400D9D269 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagesViewController.swift; path = "homework-4-facebook/MessagesViewController.swift"; sourceTree = "<group>"; };
+		ACFCBEBF1AA05D3200D9D269 /* NotifsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifsViewController.swift; sourceTree = "<group>"; };
+		ACFCBEC11AA065DE00D9D269 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,7 @@
 		ACFCBE831AA04DE700D9D269 = {
 			isa = PBXGroup;
 			children = (
+				ACFCBEBD1AA050B400D9D269 /* MessagesViewController.swift */,
 				ACFCBE8E1AA04DE700D9D269 /* homework-4-facebook */,
 				ACFCBEA41AA04DE800D9D269 /* homework-4-facebookTests */,
 				ACFCBE8D1AA04DE700D9D269 /* Products */,
@@ -77,11 +90,16 @@
 		ACFCBE8E1AA04DE700D9D269 /* homework-4-facebook */ = {
 			isa = PBXGroup;
 			children = (
+				ACA7B8201AA447A3002CE78F /* Common.swift */,
 				ACFCBE911AA04DE700D9D269 /* AppDelegate.swift */,
 				ACFCBE931AA04DE700D9D269 /* ViewController.swift */,
 				ACFCBE951AA04DE800D9D269 /* Main.storyboard */,
+				ACFCBEC11AA065DE00D9D269 /* PhotoViewController.swift */,
+				ACFCBEBF1AA05D3200D9D269 /* NotifsViewController.swift */,
+				ACFCBEB11AA0506300D9D269 /* RequestsViewController.swift */,
+				ACFCBEB31AA0506E00D9D269 /* NewsfeedViewController.swift */,
+				ACFCBEB71AA0508400D9D269 /* MoreViewController.swift */,
 				ACFCBE981AA04DE800D9D269 /* Images.xcassets */,
-				ACFCBE9A1AA04DE800D9D269 /* LaunchScreen.xib */,
 				ACFCBE8F1AA04DE700D9D269 /* Supporting Files */,
 			);
 			path = "homework-4-facebook";
@@ -193,7 +211,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFCBE971AA04DE800D9D269 /* Main.storyboard in Resources */,
-				ACFCBE9C1AA04DE800D9D269 /* LaunchScreen.xib in Resources */,
 				ACFCBE991AA04DE800D9D269 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACFCBEBE1AA050B400D9D269 /* MessagesViewController.swift in Sources */,
 				ACFCBE941AA04DE800D9D269 /* ViewController.swift in Sources */,
+				ACFCBEB21AA0506300D9D269 /* RequestsViewController.swift in Sources */,
+				ACFCBEB81AA0508400D9D269 /* MoreViewController.swift in Sources */,
+				ACA7B8211AA447A3002CE78F /* Common.swift in Sources */,
+				ACFCBEC01AA05D3200D9D269 /* NotifsViewController.swift in Sources */,
+				ACFCBEC21AA065DE00D9D269 /* PhotoViewController.swift in Sources */,
 				ACFCBE921AA04DE700D9D269 /* AppDelegate.swift in Sources */,
+				ACFCBEB41AA0506E00D9D269 /* NewsfeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +266,6 @@
 				ACFCBE961AA04DE800D9D269 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ACFCBE9A1AA04DE800D9D269 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACFCBE9B1AA04DE800D9D269 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "homework-4-facebook/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "homework-4-facebook/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +423,7 @@
 				ACFCBEAD1AA04DE800D9D269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACFCBEAE1AA04DE800D9D269 /* Build configuration list for PBXNativeTarget "homework-4-facebookTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +432,7 @@
 				ACFCBEB01AA04DE800D9D269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
